@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-26T21:06:56 MST" name="Suite" finished-at="2022-12-26T21:06:56 MST" duration-ms="266">
+    <groups>
+      <group name="smoke">
+        <method signature="day3.bikeLoan()[pri:0, instance:demoP.day3@4d465b11]" name="bikeLoan" class="demoP.day3"/>
+        <method signature="day3.houseLoan()[pri:0, instance:demoP.day3@4d465b11]" name="houseLoan" class="demoP.day3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-12-26T21:06:56 MST" name="Test" finished-at="2022-12-26T21:06:56 MST" duration-ms="88">
+      <class name="demoP.byeTest">
+        <test-method is-config="true" signature="Demo4()[pri:0, instance:demoP.byeTest@a2431d0]" started-at="2022-12-26T21:06:56 MST" name="Demo4" finished-at="2022-12-26T21:06:56 MST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo4 -->
+        <test-method signature="Demo2()[pri:0, instance:demoP.byeTest@a2431d0]" started-at="2022-12-26T21:06:56 MST" name="Demo2" finished-at="2022-12-26T21:06:56 MST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+      </class> <!-- demoP.byeTest -->
+      <class name="demoP.helloTest">
+        <test-method signature="Demo()[pri:0, instance:demoP.helloTest@40cb8df7]" started-at="2022-12-26T21:06:56 MST" name="Demo" finished-at="2022-12-26T21:06:56 MST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="Demo1(java.lang.String)[pri:0, instance:demoP.helloTest@40cb8df7]" started-at="2022-12-26T21:06:56 MST" name="Demo1" finished-at="2022-12-26T21:06:56 MST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+      </class> <!-- demoP.helloTest -->
+    </test> <!-- Test -->
+    <test started-at="2022-12-26T21:06:56 MST" name="car loan" finished-at="2022-12-26T21:06:56 MST" duration-ms="47">
+      <class name="demoP.byeTest">
+        <test-method is-config="true" signature="Demo3()[pri:0, instance:demoP.byeTest@a2431d0]" started-at="2022-12-26T21:06:56 MST" name="Demo3" finished-at="2022-12-26T21:06:56 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
+      </class> <!-- demoP.byeTest -->
+      <class name="demoP.day3">
+        <test-method signature="bikeLoan()[pri:0, instance:demoP.day3@4d465b11]" started-at="2022-12-26T21:06:56 MST" name="bikeLoan" finished-at="2022-12-26T21:06:56 MST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bikeLoan -->
+        <test-method signature="carLoan()[pri:0, instance:demoP.day3@4d465b11]" started-at="2022-12-26T21:06:56 MST" name="carLoan" finished-at="2022-12-26T21:06:56 MST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoan -->
+        <test-method signature="houseLoan()[pri:0, instance:demoP.day3@4d465b11]" started-at="2022-12-26T21:06:56 MST" name="houseLoan" finished-at="2022-12-26T21:06:56 MST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- houseLoan -->
+        <test-method signature="tvLoan(java.lang.String,java.lang.String)[pri:0, instance:demoP.day3@4d465b11]" started-at="2022-12-26T21:06:56 MST" name="tvLoan" data-provider="getData" finished-at="2022-12-26T21:06:56 MST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusernme]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tvLoan -->
+        <test-method signature="tvLoan(java.lang.String,java.lang.String)[pri:0, instance:demoP.day3@4d465b11]" started-at="2022-12-26T21:06:56 MST" name="tvLoan" data-provider="getData" finished-at="2022-12-26T21:06:56 MST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2usernme]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tvLoan -->
+        <test-method signature="tvLoan(java.lang.String,java.lang.String)[pri:0, instance:demoP.day3@4d465b11]" started-at="2022-12-26T21:06:56 MST" name="tvLoan" data-provider="getData" finished-at="2022-12-26T21:06:56 MST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3usernme]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tvLoan -->
+      </class> <!-- demoP.day3 -->
+    </test> <!-- car loan -->
+  </suite> <!-- Suite -->
+</testng-results>

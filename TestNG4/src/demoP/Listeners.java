@@ -1,0 +1,52 @@
+package demoP;
+
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+public class Listeners implements ITestListener {
+	
+	@Override		
+    public void onFinish(ITestContext arg0) {					
+        // TODO Auto-generated method stub				
+		System.out.println("listeners on finish");
+    }		
+
+    @Override		
+    public void onStart(ITestContext arg0) {					
+        // TODO Auto-generated method stub				
+        		System.out.println("listeners on start");
+    }		
+
+    @Override		
+    public void onTestFailedButWithinSuccessPercentage(ITestResult arg0) {					
+        // TODO Auto-generated method stub				
+        		
+    }		
+
+    @Override		
+    public void onTestFailure(ITestResult arg0) {					
+        // TODO Auto-generated method stub				
+        		
+    }		
+
+    @Override		
+    public void onTestSkipped(ITestResult arg0) {					
+        // TODO Auto-generated method stub				
+    	System.out.println("listeners on skip");
+    }		
+
+    @Override		
+    public void onTestStart(ITestResult arg0) {					
+        // TODO Auto-generated method stub				
+    	System.out.println("listeners on test start");
+    }		
+
+    @Override		
+    public void onTestSuccess(ITestResult arg0) {					
+        // TODO Auto-generated method stub				
+    	System.out.println("listeners on success");
+    }		
+}	
+
+
