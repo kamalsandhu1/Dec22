@@ -10,7 +10,7 @@ public class day3 {
 		System.out.println("apple");
 		
 	}
-
+//here is the change
 	@Test(groups= {"smoke"})
 	public void bikeLoan() {
 		System.out.println("apple2");
